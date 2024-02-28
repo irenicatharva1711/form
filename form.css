@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+form{
+    width: 40%;
+    border: 2px solid rgb(186, 184, 184);
+    margin-top: 20px;
+    padding: 0px 40px 15px 40px;
+    background-image: url(./images/vtbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    width: 96%;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    border-radius: 7px;
+    justify-content: center;
+}
+.sr{
+    background-color: #feb602;
+}
+select{
+    width: 30%;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    border-radius: 7px;
+}
+.sr:hover{
+    background-color: #f6fe02;
+}
